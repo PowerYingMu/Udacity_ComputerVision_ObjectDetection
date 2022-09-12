@@ -4,8 +4,16 @@
 There are two main parts of this project. The first part is to investigate the existing data set by plotting the figures with dounding boxes, which are color coded to represent three main traffice objects, including vehicles, cyclists, and pedestrians. The second objective of this project is to use pre-trained model and provided data to train a neural network model to detect the above three main traffic objects and improve the model performances using different methods, like data augmentation and tunning model hyper parameters.
 
 ### Suggestions For this Project
-    1. There is a mistake in 
-
+    1. There is a mistake in 'Explore augmentations.ipynb', the correct statment in "line 181" should be as following, and additional statements in            "line 181" prevent opening the notebook.
+        
+        line 181:    "display_name": "Python 3",
+    
+    2. The workspace always be automatically disconnected after 1 hour, and this stopps all neural network training process. This wasted lots of my time        because the traning stopped around 1200 steps. Unfortunately, I was not able to always check my 'workspace'. I really hope that the workspace          can be always connected as needed.
+    
+    3. The storage size of the workspace is a bit small. I changed the step size to be 3000 and I can not evaluate the model due to 'space not enough'.         I hope the space of the workspace could be larger
+    
+    4. I spent lots of time to get the evaluation history and wanted to plot together with the training history. Howver, I failed to do this and did not        find a way to do this. I hope some instructions could be given to plot the history of the evaluation process. 
+    
 ## Data
 
 For this project, we will be using data from the [Waymo Open dataset](https://waymo.com/open/).
