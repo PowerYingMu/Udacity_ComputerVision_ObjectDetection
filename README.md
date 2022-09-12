@@ -1,5 +1,11 @@
 # Object Detection in an Urban Environment
 
+## Introduction
+There are two main parts of this project. The first part is to investigate the existing data set by plotting the figures with dounding boxes, which are color coded to represent three main traffice objects, including vehicles, cyclists, and pedestrians. The second objective of this project is to use pre-trained model and provided data to train a neural network model to detect the above three main traffic objects and improve the model performances using different methods, like data augmentation and tunning model hyper parameters.
+
+### Suggestions For this Project
+    1. There is a mistake in 
+
 ## Data
 
 For this project, we will be using data from the [Waymo Open dataset](https://waymo.com/open/).
