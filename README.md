@@ -144,6 +144,12 @@ The following figures show the initial train/eval results using pre-trained mode
 
 ### Improve the performances
 
+#### Data Augmentation Example
+
+![image](DisplayTrainImage/Augmentation1.png)
+![image](DisplayTrainImage/Augmentation2.png)
+
+
 #### Exp1
 
 The 'batch_size' in "line 131" in the initial pipeline_new.config was 300. The tach_size was reduced to be 5. At the same time, two data augmentation methods were added, 'random_adjust_brightness' and 'random_rgb_to_gray'. The num_steps was increased to 3000. The resuslts of Exp1 is showed in the figure below. Howver, the total loss of train and eval is stilll high
