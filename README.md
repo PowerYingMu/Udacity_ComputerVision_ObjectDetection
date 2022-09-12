@@ -85,7 +85,7 @@ You should use the data already present in `/home/workspace/data/waymo` director
 
 Keep in mind that you should refer to this analysis to create the different spits (training, testing and validation).
 ![image](DisplayTrainImage/download.png)
-![image](DisplayTrainImage/download (1).png)
+![image] (https://github.com/PowerYingMu/Udacity_ComputerVision_ObjectDetection/blob/8ecd778e59258ca437d8084bdf5dadde17f4ad31/DisplayTrainImage/download%20(1).png)
 
 ### Create the training - validation splits
 In the class, we talked about cross-validation and the importance of creating meaningful training and validation splits. For this project, you will have to create your own training and validation sets using the files located in `/home/workspace/data/waymo`. The `split` function in the `create_splits.py` file does the following:
